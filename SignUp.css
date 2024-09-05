@@ -1,4 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    background-image: url(image/in2.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

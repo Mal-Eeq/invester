@@ -137,7 +137,6 @@ ul li a:hover:after{
 .cont2{
     background-color: white;
     height: 100vh;
-    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     
@@ -210,8 +209,32 @@ ul li a:hover:after{
 
 
 .cont5{
-    background-color: rgb(208, 235, 200);;
+    background-color: rgb(208, 235, 200);
     height: 100vh;
+}
+
+.bv{
+    background-color:rgb(208, 235, 200);
+    height: 50vh;
+    width: 500px;
+    position: absolute;
+}
+
+.services{
+    color: rgba(31, 123, 101, 1.00);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.ex{
+    margin-left: 70px;
+    font-size: 30px;
+    /* font-family: Nirmala UI; */
+    font-family: Garamond;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 .sect1{
@@ -232,6 +255,7 @@ ul li a:hover:after{
     /* padding: 30px; */
 }
 .sect1{
+    display: block;
     height: 300px;
     display: flex;
     gap: 20px;
@@ -267,6 +291,74 @@ ul li a:hover:after{
     height: 200px;
     /* padding: 30px; */
 }
+
+.gk{
+    background-color: white;
+    height: 100vh;
+}
+
+.kg{
+    background-color: rgb(208, 235, 200);
+    height: 30vh;
+}
+
+.ck{
+    background-color: white;
+    height: 100vh;
+}
+
+.po{
+    background-color: rgb(1, 1, 22);
+    height: 50vh;
+}
+
+.xc{
+    color: black;
+    /* font-weight: lighter; */
+    /* padding-left: 70px; */
+    /* padding-top: 20px; */
+    /* font-size: 20px; */
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.bv button{
+    color: white;
+    background-color: rgba(31, 123, 101, 1.00);
+    height: 50px;
+    width: 150px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 2px;
+    border: none;
+}
+
+
+.hk{
+   
+    height: 200px;
+    /* width: 300px; */
+    
+    position: relative;
+    bottom: 10px;
+    
+    display: flex;
+    gap: 30px;
+    /* margin:  auto ; */
+    margin-left: 90px;
+}
+.ol {
+    background-color: white;
+    box-shadow: 0 0 6px 0;
+    /* width: 500px; */
+    width: 100%;
+    height: 200px;
+    margin-right: 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+
 
 
 
