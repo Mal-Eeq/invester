@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-nav{
+header{
     /* background-color: orange; */
     /* background-color: rgba(160, 212, 144, 1.00); */
     /* background-color: rgba(108, 123, 101, 1.00); */
@@ -34,7 +34,7 @@ ul{
     display: flex;
     text-decoration: none;
     gap: 40px;
-    margin-left: 200px;
+    margin-left: 300px;
     list-style: none;
     margin-top: 50px;
 }
@@ -69,13 +69,13 @@ ul li a:hover:after{
   transform: scale(1, 1);
 }
 
-.signup{
+/* .signup{
     background-color: rgba(31, 123, 101, 1.00);
     width: 100px;
     height: 30%;
     border: none;
     color: white;
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
     margin-top: 45px;
     margin-left: 100px;
     border-radius: 10px;
@@ -86,7 +86,7 @@ ul li a:hover:after{
     color: rgba(31, 123, 101, 1.00);
     cursor: pointer;
 }
-
+ */
 
 
 .cont1{
@@ -101,7 +101,7 @@ ul li a:hover:after{
 
 .fin{
     color: white;
-    padding-top: 200px;
+    padding-top: 150px;
     padding-left: 70px;
     font-size: 50px;
     font-weight: bold;
@@ -112,7 +112,7 @@ ul li a:hover:after{
     color: white;
     font-weight: lighter;
     padding-left: 70px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-size: 20px;
 }
 
@@ -191,9 +191,7 @@ ul li a:hover:after{
     border-bottom: 20px solid rgba(31, 123, 101, 1.00);
 }
 
-.bs:hover{
-    transform: scale(2px);
-}
+
 
 .easy1{
     padding-left: 70px;
@@ -247,6 +245,7 @@ ul li a:hover:after{
 
 .sect2{
     background-color: white;
+    /* position: relative; */
     border-radius: 10px;
     /* margin-left: 10px; */
     margin-top: 50px;
@@ -264,6 +263,16 @@ ul li a:hover:after{
 }
 
 .sect2{
+    background-color: white;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+    margin-top: 50px;
+    width: 800px;
+    height: 200px;
+    /* padding: 30px; */
+    text-align: center;
+}
+.sect2i{
     background-color: white;
     border-radius: 10px;
     /* margin-left: 10px; */
@@ -291,10 +300,28 @@ ul li a:hover:after{
     height: 200px;
     /* padding: 30px; */
 }
+.sect4i{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+    width: 800px;
+    height: 200px;
+    /* padding: 30px; */
+}
 
 .gk{
     background-color: white;
     height: 100vh;
+    
+    
+}
+
+.gk1{
+    background-color: black;
+    height: 50vh;
+    float: right;
+    
 }
 
 .kg{
