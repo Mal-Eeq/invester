@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Poppins;
 }
 
 header{
@@ -213,7 +214,7 @@ ul li a:hover:after{
 
 .bv{
     background-color:rgb(208, 235, 200);
-    height: 50vh;
+    height: 100vh;
     width: 500px;
     position: absolute;
 }
@@ -230,7 +231,7 @@ ul li a:hover:after{
     margin-left: 70px;
     font-size: 30px;
     /* font-family: Nirmala UI; */
-    font-family: Garamond;
+    /* font-family: Garamond; */
     font-weight: bold;
     margin-top: 20px;
 }
@@ -252,6 +253,57 @@ ul li a:hover:after{
     width: 500px;
     height: 200px;
     /* padding: 30px; */
+}
+
+.dollarvan{
+    /* height: 5px; */
+    float: left;
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.dollarvan img{
+    height: 40px;
+}
+.inspection{
+     /* height: 5px; */
+     float: left;
+     position: absolute;
+     margin-top: 25px;
+     margin-right: 10px;
+     margin-left: 40px;
+}
+
+.inspection img{
+    height: 50px;
+    color: rgb(208, 235, 200);
+}
+.computer{
+     /* height: 5px; */
+     float: left;
+     position: absolute;
+     margin-top: 25px;
+     margin-right: 10px;
+     margin-left: 40px;
+}
+
+.computer img{
+    height: 50px;
+    color: rgb(208, 235, 200);
+}
+.analytics{
+     /* height: 5px; */
+     float: left;
+     position: absolute;
+     margin-top: 25px;
+     margin-right: 10px;
+     margin-left: 30px;
+}
+
+.analytics img{
+    height: 50px;
+    color: rgb(208, 235, 200);
 }
 .sect1{
     display: block;
@@ -313,23 +365,23 @@ ul li a:hover:after{
 .gk{
     background-color: white;
     height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
-    
-}
-
-.gk1{
-    background-color: black;
-    height: 50vh;
-    float: right;
     
 }
 
 .kg{
-    background-color: rgb(208, 235, 200);
-    height: 30vh;
+    /* background-color: rgb(60, 202, 17); */
+    background-color: white;
+    height: 100vh;
+    width: 90vh;
+    float: right;
+    
 }
 
 .ck{
+    /* background-color: rgb(209, 40, 40); */
     background-color: white;
     height: 100vh;
 }
@@ -375,6 +427,7 @@ ul li a:hover:after{
     margin-left: 90px;
 }
 .ol {
+    /* background-color: rgb(208, 235, 200); */
     background-color: white;
     box-shadow: 0 0 6px 0;
     /* width: 500px; */
@@ -383,6 +436,13 @@ ul li a:hover:after{
     margin-right: 100px;
     padding: 30px;
     text-align: center;
+}
+
+.minilog{
+    display: flex;
+    gap: 200px;
+    padding-top: 30px;
+    padding-left: 100px;
 }
 
 
